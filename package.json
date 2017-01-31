@@ -1,0 +1,25 @@
+{
+  "name": "weex-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "vue": "^2.1.10",
+    "weex-vue-render": "^0.1.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "eslint-loader": "^1.6.1",
+    "vue-loader": "^10.1.2",
+    "vue-template-compiler": "^2.1.10",
+    "webpack": "^2.2.1",
+    "webpack-merge": "^2.6.1"
+  }
+}
