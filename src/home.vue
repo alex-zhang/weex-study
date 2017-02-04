@@ -1,55 +1,16 @@
 <template>
   <div>
-    <text>{{title}}</text>
+    <image style="flex: 1" class="bg-img" src="https://gd2.alicdn.com/bao/uploaded/i2/T14H1LFwBcXXXXXXXX_!!0-item_pic.jpg"></image>
   </div>
 </template>
 
-<style>
-  .title {font-size: 12px;}
-</style>
-
 <script>
-  import modal from '@weex-module/modal'
+  const modal = weex.requireModule('modal');
 
   export default {
-    data () {
-//      modal.toast({
-//        message: 'data'
-//      });
-
-      return {
-        title: '======>' + modal
-      }
-    },
-
-//  	beforeCreate() {
-//      modal.toast({
-//      	message: 'beforeCreate1'
-//      });
-//    },
-//
-//    created () {
-//      modal.toast({
-//        message: 'created'
-//      });
-//    },
-//
-//    mounted () {
-//      modal.toast({
-//        message: 'mounted'
-//      });
-//    },
-//
-//    beforeUpdate() {
-//      modal.toast({
-//        message: 'beforeUpdate'
-//      });
-//    },
-//
-//    updated() {
-//      modal.toast({
-//        message: 'updated'
-//      });
-//    }
   }
 </script>
+
+<style>
+
+</style>
